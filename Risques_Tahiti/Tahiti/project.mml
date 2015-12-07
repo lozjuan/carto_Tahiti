@@ -1,0 +1,202 @@
+{
+  "bounds": [
+    -149.6331,
+    -17.6025,
+    -149.5239,
+    -17.5174
+  ],
+  "center": [
+    -149.5747,
+    -17.5566,
+    11
+  ],
+  "format": "jpeg90",
+  "interactivity": {
+    "fields": []
+  },
+  "minzoom": 0,
+  "maxzoom": 18,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "raster",
+      "extent": [
+        -149.6557560243803,
+        -17.90376648985038,
+        -149.1027490499184,
+        -17.481114919742446
+      ],
+      "id": "topo-tahiti",
+      "class": "carteIGN",
+      "Datasource": {
+        "file": "/home/juanlozano/Documents/MapBox/data/BDD_Tahiti/Tahiti.tif"
+      },
+      "layer": null,
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "topo-tahiti"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        -149.64584124758048,
+        -17.607146290987572,
+        -149.5174580981618,
+        -17.513311543435417
+      ],
+      "id": "ImgSat",
+      "class": "RS10M",
+      "Datasource": {
+        "file": "/home/juanlozano/Documents/MapBox/data/BDD_Tahiti/Tahiti_sat.tif"
+      },
+      "layer": null,
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "ImgSat"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -149.61770565173163,
+        -17.586075983013643,
+        -149.6138563523699,
+        -17.575447809031417
+      ],
+      "id": "bati-3m",
+      "class": "risksub",
+      "Datasource": {
+        "file": "/home/juanlozano/Documents/MapBox/data/BDD_Tahiti/bati_3m.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bati-3m"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -149.61770244471103,
+        -17.58585331463144,
+        -149.61460391295572,
+        -17.575928502574605
+      ],
+      "id": "bati-88cm",
+      "class": "risksub",
+      "Datasource": {
+        "file": "/home/juanlozano/Documents/MapBox/data/BDD_Tahiti/bati_88cm_vf.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bati-88cm"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -149.5752485141861,
+        -17.529628266497152,
+        -149.56740914548521,
+        -17.522572278510548
+      ],
+      "id": "bati-fort",
+      "class": "riskindus",
+      "Datasource": {
+        "file": "/home/juanlozano/Documents/MapBox/data/BDD_Tahiti/risque_fort.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bati-fort"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -149.58261450024307,
+        -17.538418941211802,
+        -149.55712262138633,
+        -17.52472717108008
+      ],
+      "id": "bati-moyen",
+      "class": "riskindus",
+      "Datasource": {
+        "file": "/home/juanlozano/Documents/MapBox/data/BDD_Tahiti/risque_moyen.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bati-moyen"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -149.5908827516696,
+        -17.552219740391404,
+        -149.5429950397498,
+        -17.521712975610516
+      ],
+      "id": "bati-faible",
+      "class": "riskindus",
+      "Datasource": {
+        "file": "/home/juanlozano/Documents/MapBox/data/BDD_Tahiti/risque_faible.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bati-faible"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -149.62132921470547,
+        -17.58617767991247,
+        -149.52448930552305,
+        -17.520731128064277
+      ],
+      "id": "bati-safe",
+      "class": "allrisk",
+      "Datasource": {
+        "file": "/home/juanlozano/Documents/MapBox/data/BDD_Tahiti/risque_NUL.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bati-safe"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -149.61672379459364,
+        -17.587790719424685,
+        -149.6096278143842,
+        -17.579776039666136
+      ],
+      "id": "routes",
+      "class": "infrastructure",
+      "Datasource": {
+        "file": "/home/juanlozano/Documents/MapBox/data/BDD_Tahiti/routes.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "routes"
+    }
+  ],
+  "scale": 1,
+  "metatile": 3,
+  "name": "Submersion_marine",
+  "description": "Risques de submersion marine à Papeete",
+  "attribution": "",
+  "legend": "<!-- This legend uses Unicode box-drawing characters to approxmate line styles. -->\n<h2><b> Risque Industriel </b></h2>\n<span style='color:#ED0000'>▉</span> Fort <br />\n<span style='color:#FEF72F'>▉</span> Moyen <br />\n<span style='color:#19F600'>▉</span> Faible <br />\n<h2><b> Risque de submersion marine </b></h2>\n<span style='color:#E300D4'>▉</span> bâti submergé : scénario montée du niveau de la mer 88cm <br />\n<span style='color:#EF7F00'>▉</span> bâti submergé : scénario montée du niveau de la mer 3m <br />\n<span style='color:#DBDEED'>▉</span> sans risque <br />"
+}
